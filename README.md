@@ -1,3 +1,6 @@
 # oblig3
-First I set up the repo using IntelliJ, then I set up the .yml file on github using the boilerplate Java with Maven github provides. I only had to change the version of Java that came with the boilerplate code. (From 11 to 18.)
-From there I tried a lot of different things but I could not get it to run the tests. I've tried adding surefire as a dependency to the poml.xml, tried refactoring the folders in the project but no matter what it does not detect the tests.
+I set up the repo using IntelliJ's built-in features. 
+
+I then used the boilerplate Java with Maven option found under the Actions page. I had to change the Java version specified from '11' to '18'. 
+
+I'm unable to get the tests to run. I've tried adding a dependency to the maven surefire plugin in the poml.xml file. As well as a dependency to junit-platform-sure-provider. Not sure what that last one is supposed to do. But there's not a lot of information out there about this problem. I've read it could be IntelliJ's fault when setting up the repo but I'd rather not have to troubleshoot that. 
