@@ -1,3 +1,5 @@
+package org.code;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -13,15 +15,15 @@ class CalendarTest {
     @Test
     void testDivisibleBy4ButNot100() {
         // 2004 is divisible by 4 but not 100.
-        assertTrue(Calendar.isLeapYear(2004));
+        Assertions.assertTrue(Calendar.isLeapYear(2004));
     }
     @Test
     public void testDivisibleBy400() {
         // 2000 is divisible by 4, 100 and 400....
-        assertTrue(Calendar.isLeapYear(2000));
+        Assertions.assertTrue(Calendar.isLeapYear(2000));
     }
     @Test
     void testDivisibleBy100ButNot400() {
-        assertFalse(Calendar.isLeapYear(1900));
+        Assertions.assertFalse(Calendar.isLeapYear(1900));
     }
 }
