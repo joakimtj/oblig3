@@ -1,4 +1,4 @@
-package org.code;
+package org.fuck;
 
 public class Main {
     public static void main(String[] args) {
