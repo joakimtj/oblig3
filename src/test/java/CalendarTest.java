@@ -1,5 +1,5 @@
-package org.code;
-
+import org.code.Calendar;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -9,7 +9,7 @@ class CalendarTest {
     @Test
     void testNotDivisibleBy4() {
         // 2007 is not divisible by 4.
-        assertFalse(Calendar.isLeapYear(2007));
+        Assertions.assertFalse(Calendar.isLeapYear(2007));
     }
     @Test
     void testDivisibleBy4ButNot100() {
