@@ -17,7 +17,7 @@ class CalendarTest {
     }
     @Test
     public void divisibleBy400Test() {
-        // 2000 is divisible by 4, 100 and 400..
+        // 2000 is divisible by 4, 100 and 400..s
         Assertions.assertTrue(Calendar.isLeapYear(2000));
     }
     @Test
